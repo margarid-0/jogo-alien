@@ -43,10 +43,10 @@ var moedasColetadas = []
 function preload() {
     this.load.image('alien', 'assets/alienigena.png')
     this.load.image('background', 'assets/bg.png')
-    this.load.image('fogo', '/assets/turbo.png')
-    this.load.image('plataforma', '/assets/tijolos.png')
-    this.load.image('moeda', '/assets/moeda.png')
-    this.load.image('sol', '/assets/sun.png')
+    this.load.image('fogo', 'assets/turbo.png')
+    this.load.image('plataforma', 'assets/tijolos.png')
+    this.load.image('moeda', 'assets/moeda.png')
+    this.load.image('sol', 'assets/sun.png')
 }
 
 function create() {
